@@ -13,7 +13,7 @@ int main(){
 	int income;
 	cin>>income;
 
-	applyTax(income);
+	applyTax(&income);
 
 	cout << income <<endl;
 
